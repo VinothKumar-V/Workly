@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="679b5c48-1818-4df4-906c-0b98cc3520ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Sheldon_ui4.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Sheldon_ui4.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheldon_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/sheldon_app.py" afterDir="false" />
-    </list>
+    <list default="true" id="679b5c48-1818-4df4-906c-0b98cc3520ad" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +30,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sheldon_ui5_out.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6201" />
+            <state relative-caret-position="-6141" />
           </provider>
         </entry>
       </file>
@@ -160,7 +157,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sheldon_ui5_out.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6201" />
+        <state relative-caret-position="-6141" />
       </provider>
     </entry>
   </component>
