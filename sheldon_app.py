@@ -1,9 +1,9 @@
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 import sys
-import sheldon_ui5_out
+import sheldon_ui6_out
 
-class sheldonApp(QDialog, sheldon_ui5_out.Ui_Dialog):
+class sheldonApp(QDialog, sheldon_ui6_out.Ui_Dialog):
     def __init__(self):
         QDialog.__init__(self)
         self.setupUi(self)
