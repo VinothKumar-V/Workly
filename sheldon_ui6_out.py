@@ -511,13 +511,15 @@ class Ui_Dialog(object):
         self.mainTabWidget.setTabText(self.mainTabWidget.indexOf(self.tab_2), _translate("Dialog", "HPSM", None))
         self.tableWidget_2.setSortingEnabled(False)
         item = self.tableWidget_2.horizontalHeaderItem(0)
-        item.setText(_translate("Dialog", "Summary", None))
+        item.setText(_translate("Dialog", "Ticket No", None))
         item = self.tableWidget_2.horizontalHeaderItem(1)
-        item.setText(_translate("Dialog", "Epic", None))
+        item.setText(_translate("Dialog", "Summary", None))
         item = self.tableWidget_2.horizontalHeaderItem(2)
         item.setText(_translate("Dialog", "Sprint", None))
         item = self.tableWidget_2.horizontalHeaderItem(3)
-        item.setText(_translate("Dialog", "Due Date", None))
+        item.setText(_translate("Dialog", "Start Date", None))
+
+
         __sortingEnabled = self.tableWidget_2.isSortingEnabled()
         self.tableWidget_2.setSortingEnabled(False)
         item = self.tableWidget_2.item(0, 0)
@@ -528,6 +530,7 @@ class Ui_Dialog(object):
         item.setText(_translate("Dialog", "060106302019", None))
         item = self.tableWidget_2.item(0, 3)
         item.setText(_translate("Dialog", "30/June/2019", None))
+
         item = self.tableWidget_2.item(1, 0)
         item.setText(_translate("Dialog", "Auto Patching Script", None))
         item = self.tableWidget_2.item(1, 1)
@@ -536,6 +539,7 @@ class Ui_Dialog(object):
         item.setText(_translate("Dialog", "060106302019", None))
         item = self.tableWidget_2.item(1, 3)
         item.setText(_translate("Dialog", "30/June/2019", None))
+
         self.tableWidget_2.setSortingEnabled(__sortingEnabled)
         self.pushButton.setText(_translate("Dialog", "Update WorkLog", None))
         self.pushButton_2.setText(_translate("Dialog", "Open In Browser", None))
